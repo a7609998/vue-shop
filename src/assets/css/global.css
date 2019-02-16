@@ -6,3 +6,20 @@ body,
   margin: 0;
   padding: 0;
 }
+
+.el-submenu__title,
+.el-menu-item {
+  font-size: 13px;
+  width: 200px;
+}
+
+i.iconfont {
+  margin-right: 10px;
+}
+
+.el-input__inner {
+  vertical-align: middle;
+  display: table-cell;
+  width: 285px;
+  height: 40px;
+}

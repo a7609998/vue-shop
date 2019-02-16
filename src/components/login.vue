@@ -2,7 +2,7 @@
   <div class="login-container">
     <div class="login-box">
       <div class="avatar-box">
-        <img src="../assets/logo.png" alt>
+        <img src="../assets/img/logo.png" alt>
       </div>
       <el-form :rules="rules" ref="loginFormRef" :model="loginForm">
         <el-form-item prop="username">
@@ -11,7 +11,7 @@
           </el-input>
         </el-form-item>
         <el-form-item prop="password">
-          <el-input v-model="loginForm.password">
+          <el-input type="password" v-model="loginForm.password" @keyup.enter.native="login">
             <i slot="prefix" class="iconfont icon-3702mima"></i>
           </el-input>
         </el-form-item>
